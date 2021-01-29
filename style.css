@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+main{
+    text-align: center;
+    margin-top: 20px;
+    background-color: wheat;
+}
+main h2{
+     margin-bottom: 10px;
+  
+}
+
+main nav{
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+}
