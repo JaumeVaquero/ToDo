@@ -5,6 +5,7 @@
    
 }
 main{
+    box-sizing: border-box;
     text-align: center;
     margin-top: 20px;
     background-color: wheat;
@@ -14,11 +15,53 @@ main h2{
   
 }
 
-main nav{
+main form{
+    display:flex;
     text-align: center;
     background-color: white;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+main nav .filter {
+    text-align: center;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    size: 20px;
+}
+article{
+    display: flex;
+}
+article .urgente{
+    background-color: red;
+    color: white;
+    margin: 30px;
+    padding: 30px;
+}
+article .diario{
+    background-color: green;
+    color: white;
+    margin: 30px;
+    padding: 30px;
+}
+article .mensual{
+    background-color: blue;
+    color: white;
+    margin: 30px;
+    padding: 30px;
+}
+
+
+
+
+
+footer {
+    background-color: Black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 
 }
