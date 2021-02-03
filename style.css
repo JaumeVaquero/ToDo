@@ -22,13 +22,19 @@ main form{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-main nav .filter {
+main .filter {
+    display: flex;
     text-align: center;
     background-color: black;
     margin-top: 20px;
     margin-bottom: 20px;
     size: 20px;
+
 }
+main .filter select{
+    width: 200px;
+}
+
 article{
     display: flex;
 }
